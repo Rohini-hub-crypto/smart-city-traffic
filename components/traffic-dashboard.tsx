@@ -110,11 +110,11 @@ export default function TrafficDashboard() {
           </div>
           <div className="flex items-center gap-2 rounded-lg border border-white/[0.07] bg-white/[0.025] px-3 py-2 text-xs text-slate-400">
             <Clock3 className="size-3.5 text-slate-500" aria-hidden="true" />
-            <span>Tuesday, October 7</span><span className="text-slate-700">•</span><span className="font-mono text-slate-300">10:42 AM</span>
+            <span>Wednesday, October 7</span><span className="text-slate-700">•</span><span className="font-mono text-slate-300">10:42 AM</span>
           </div>
         </div>
 
-        <div className="grid items-start gap-5 xl:grid-cols-[minmax(0,1.2fr)_minmax(410px,0.8fr)]">
+        <div className="grid items-start gap-5 lg:grid-cols-[minmax(0,1.1fr)_minmax(410px,0.9fr)]">
           <section aria-labelledby="camera-heading" className="min-w-0 rounded-2xl border border-white/[0.08] bg-[#0b1118] p-4 sm:p-5">
             <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
               <PanelHeading icon={Video} title="Live camera feed" meta="CAM-04 / 1080P" />
